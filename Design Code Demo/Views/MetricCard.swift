@@ -30,6 +30,7 @@ struct MetricCard: View {
             }
             .padding(10)
         }
+        
     }
 }
 

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    let colSize = GridItem(.flexible(minimum: 10), spacing: 15, alignment: .center)
+    let colSize = GridItem(.flexible(minimum:10), spacing: 15, alignment: .center)
     
     var body: some View {
         
@@ -52,6 +52,7 @@ struct ProfileView: View {
                             MetricCard(number: "12,193", caption: "Follower Count", icon: "profile-metric-icon-follows")
                             MetricCard(number: "505", caption: "Total Posts", icon: "profile-metric-icon-posts")
                             MetricCard(number: "2,193", caption: "Engagement Rate", icon: "profile-metric-icon-engagement")
+                            
                             
                         })
                     }
