@@ -10,7 +10,7 @@ import WrappingStack
 
 struct HashTagCloud: View {
     
-    let tags = ["dog", "cat", "unicorn", "dolphin", "dragon", "hippo", "raccoon", "bird", "snake", "tiger", "eagle", "hamster", "possum"]
+    let tags = ["dog", "cat", "unicorn", "dolphin", "dragon", "hippo", "raccoon", "bird", "snake", "tiger", "eagle", "hamster", "possum", "eagle"]
     var body: some View {
         
         WrappingHStack (id: \.self, alignment: .leading, horizontalSpacing: 5, verticalSpacing: 5) {
